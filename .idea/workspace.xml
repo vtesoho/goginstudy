@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602aed42-34e7-4477-b3af-ff1b2e9b8d5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/param_body/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/param_get/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_generic/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_static/assets/a.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_static/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_static/static/b.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_type/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/router_url/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/param_struct/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/param_body/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/param_body/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +71,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build vteso/test/param_body">
+  <component name="RunManager" selected="Go Build.go build vteso/test/param_struct">
     <configuration name="go build vteso/test/param_body" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,21 +90,21 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build vteso/test/param_struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/param_struct/main.go" />
+      <package value="vteso/test/param_struct" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build vteso/test/router_generic" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/router_generic/main.go" />
       <package value="vteso/test/router_generic" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build vteso/test/router_type" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/router_type/main.go" />
-      <package value="vteso/test/router_type" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -128,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vteso/test/param_struct" />
         <item itemvalue="Go Build.go build vteso/test/param_body" />
         <item itemvalue="Go Build.go build vteso/test/param_get" />
         <item itemvalue="Go Build.go build vteso/test/router_generic" />
         <item itemvalue="Go Build.go build vteso/test/router_url" />
-        <item itemvalue="Go Build.go build vteso/test/router_type" />
       </list>
     </recent_temporary>
   </component>
