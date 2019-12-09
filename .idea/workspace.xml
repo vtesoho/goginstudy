@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602aed42-34e7-4477-b3af-ff1b2e9b8d5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/adocTest/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/other_shutdown/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/other_shutdown/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +72,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build vteso/test/other_shutdown">
+  <component name="RunManager" selected="Go Build.go build vteso/test/adocTest">
+    <configuration name="go build vteso/test/adocTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/adocTest/main.go" />
+      <package value="vteso/test/adocTest" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build vteso/test/middleware_gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,15 +109,6 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build vteso/test/param_struct" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/param_struct/main.go" />
-      <package value="vteso/test/param_struct" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <configuration name="go build vteso/test/valid_binding" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -118,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vteso/test/adocTest" />
         <item itemvalue="Go Build.go build vteso/test/other_shutdown" />
         <item itemvalue="Go Build.go build vteso/test/middleware_whitelist" />
         <item itemvalue="Go Build.go build vteso/test/middleware_gin" />
         <item itemvalue="Go Build.go build vteso/test/valid_binding" />
-        <item itemvalue="Go Build.go build vteso/test/param_struct" />
       </list>
     </recent_temporary>
   </component>
@@ -144,6 +146,6 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-    <proxy>https://goproxy.io</proxy>
+    <proxy>http://mirrors.aliyun.com/goproxy/</proxy>
   </component>
 </project>
