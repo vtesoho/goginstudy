@@ -1,0 +1,71 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "description": "测试",
+        "title": "测试",
+        "contact": {},
+        "license": {},
+        "version": "0.0.1"
+    },
+    "basePath": "/",
+    "paths": {
+        "/api/v1/record/{some_id}": {
+            "get": {
+                "description": "get record by ID",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "测试aaaaaa",
+                "parameters": [
+                    {
+                        "type": "integer",
+                        "description": "userId",
+                        "name": "some_id",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "ok",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/sayHello/{name}": {
+            "get": {
+                "description": "你好",
+                "consumes": [
+                    "application/json"
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "summary": "测试bbbb",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "name",
+                        "name": "name",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "name,helloWorld",
+                        "schema": {
+                            "type": "string"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602aed42-34e7-4477-b3af-ff1b2e9b8d5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adocTest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagerTest/docs/docs.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagerTest/docs/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagerTest/docs/swagger.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagerTest/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apidoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apidoc.html.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gin.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ginTestApi.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ginTestApi.html.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
     </list>
@@ -72,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build vteso/test/adocTest">
+  <component name="RunManager" selected="Go Build.go build vteso/test/swagerTest">
     <configuration name="go build vteso/test/adocTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -109,22 +117,22 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build vteso/test/valid_binding" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build vteso/test/swagerTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/valid_binding/main.go" />
-      <package value="vteso/test/valid_binding" />
+      <filePath value="$PROJECT_DIR$/swagerTest/main.go" />
+      <package value="vteso/test/swagerTest" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vteso/test/swagerTest" />
         <item itemvalue="Go Build.go build vteso/test/adocTest" />
         <item itemvalue="Go Build.go build vteso/test/other_shutdown" />
         <item itemvalue="Go Build.go build vteso/test/middleware_whitelist" />
         <item itemvalue="Go Build.go build vteso/test/middleware_gin" />
-        <item itemvalue="Go Build.go build vteso/test/valid_binding" />
       </list>
     </recent_temporary>
   </component>
@@ -146,6 +154,6 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-    <proxy>http://mirrors.aliyun.com/goproxy/</proxy>
+    <proxy>https://goproxy.io</proxy>
   </component>
 </project>
