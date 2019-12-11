@@ -1,11 +1,14 @@
 package main
 
-import "github.com/gin-gonic/gin"
+import (
+	"github.com/gin-gonic/gin"
+	"go.uber.org/dig"
+)
 
 func IPAuthMiddleware() gin.HandlerFunc{
 	return func(c *gin.Context) {
 		ipList:=[]string{
-			"127.0.3.1",
+			"127.0.0.1",
 		}
 		flag:=false
 		clientIP:= c.ClientIP()
@@ -25,6 +28,8 @@ func IPAuthMiddleware() gin.HandlerFunc{
 
 func main() {
 	r:=gin.Default()
+	container := dig.New()
+	container.Provide("")
 	r.Use(IPAuthMiddleware())
 	r.GET("/test", func(c *gin.Context) {
 		c.String(200,"hello")

@@ -1,0 +1,43 @@
+info:
+  contact: {}
+  license: {}
+paths:
+  /api/v1/record/{some_id}:
+    get:
+      consumes:
+      - application/json
+      description: get record by ID
+      parameters:
+      - description: userId
+        in: path
+        name: some_id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: ok
+          schema:
+            type: string
+      summary: 测试aaaaaa
+  /api/v1/sayHello/{name}:
+    get:
+      consumes:
+      - application/json
+      description: 你好
+      parameters:
+      - description: name
+        in: path
+        name: name
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: name,helloWorld
+          schema:
+            type: string
+      summary: 测试bbbb
+swagger: "2.0"

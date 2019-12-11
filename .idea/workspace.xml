@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602aed42-34e7-4477-b3af-ff1b2e9b8d5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/swagerTest/docs/docs.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagerTest/docs/swagger.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagerTest/docs/swagger.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagerTest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router_group/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swagerTest/user/user.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apidoc.html.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gin.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ginTestApi.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ginTestApi.html.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middleware_whitelist/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware_whitelist/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagerTest/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/swagerTest/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
@@ -54,7 +50,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/vteso/go" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -65,6 +61,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/swagerTest/user" />
       <recent name="$PROJECT_DIR$/router_static" />
     </key>
   </component>
@@ -80,22 +77,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build vteso/test/swagerTest">
+  <component name="RunManager" selected="Go Build.go build vteso/test/router_group">
     <configuration name="go build vteso/test/adocTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/adocTest/main.go" />
       <package value="vteso/test/adocTest" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build vteso/test/middleware_gin" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/middleware_gin/main.go" />
-      <package value="vteso/test/middleware_gin" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -117,6 +105,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build vteso/test/router_group" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/router_group/main.go" />
+      <package value="vteso/test/router_group" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build vteso/test/swagerTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vteso/test/router_group" />
+        <item itemvalue="Go Build.go build vteso/test/middleware_whitelist" />
         <item itemvalue="Go Build.go build vteso/test/swagerTest" />
         <item itemvalue="Go Build.go build vteso/test/adocTest" />
         <item itemvalue="Go Build.go build vteso/test/other_shutdown" />
-        <item itemvalue="Go Build.go build vteso/test/middleware_whitelist" />
-        <item itemvalue="Go Build.go build vteso/test/middleware_gin" />
       </list>
     </recent_temporary>
   </component>

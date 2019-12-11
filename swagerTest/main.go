@@ -3,13 +3,16 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"net/http"
+	"vteso/test/swagerTest/user"
 
 	ginSwagger "github.com/swaggo/gin-swagger"
 
 	swaggerFiles "github.com/swaggo/gin-swagger/swaggerFiles"
 
 	_ "vteso/test/swagerTest/docs"
+
 )
+
 
 // @title 测试
 // @version 0.0.1
@@ -22,7 +25,7 @@ func main() {
 	v1 := r.Group("/api/v1")
 	{
 		v1.GET("/record/:userId", record)
-		v1.GET("/sayHello/:name", sayHello)
+		v1.GET("/sayHello/:name", user.SayHello)
 	}
 
 
@@ -45,16 +48,4 @@ func record(c *gin.Context) {
 	c.String(http.StatusOK, "ok")
 }
 
-// @你好世界
-// @Description 你好
-// @Summary 测试bbbb
-// @Accept  json
-// @Produce json
-// @Param   name     path    string     true        "name"
-// @Success 200 {string} string	"name,helloWorld"
-// @Router /api/v1/sayHello/{name} [get]
-func sayHello(c *gin.Context) {
-	name := c.Param("name")
-	c.String(http.StatusOK, name+",helloWorld")
-}
 

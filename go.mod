@@ -5,6 +5,7 @@ go 1.13
 require (
 	github.com/alecthomas/template v0.0.0-20190718012654-fb15b899a751
 	github.com/betacraft/yaag v1.0.0
+	github.com/casbin/casbin/v2 v2.1.2 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.0 // indirect
 	github.com/day-dreams/adoc v0.0.0-20190717045035-41bd013349dc // indirect
 	github.com/garyburd/redigo v1.6.0 // indirect
@@ -21,6 +22,7 @@ require (
 	github.com/swaggo/gin-swagger v1.2.0
 	github.com/swaggo/swag v1.6.3
 	github.com/urfave/cli v1.22.2 // indirect
+	go.uber.org/dig v1.8.0 // indirect
 	golang.org/x/net v0.0.0-20191207000613-e7e4b65ae663 // indirect
 	golang.org/x/sys v0.0.0-20191206220618-eeba5f6aabab // indirect
 	golang.org/x/tools v0.0.0-20191206204035-259af5ff87bd // indirect
