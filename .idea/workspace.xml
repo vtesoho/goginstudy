@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602aed42-34e7-4477-b3af-ff1b2e9b8d5c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/router_group/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/swagerTest/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gormTest/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goroutine/goroutine.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middleware_whitelist/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/middleware_whitelist/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagerTest/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/swagerTest/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,13 +76,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build vteso/test/router_group">
-    <configuration name="go build vteso/test/adocTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build vteso/test/goroutine">
+    <configuration name="go build vteso/test/gormTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/adocTest/main.go" />
-      <package value="vteso/test/adocTest" />
+      <filePath value="$PROJECT_DIR$/gormTest/main.go" />
+      <package value="vteso/test/gormTest" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build vteso/test/goroutine" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/goroutine/goroutine.go" />
+      <package value="vteso/test/goroutine" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -93,15 +101,6 @@
       <kind value="PACKAGE" />
       <filePath value="$PROJECT_DIR$/middleware_whitelist/main.go" />
       <package value="vteso/test/middleware_whitelist" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build vteso/test/other_shutdown" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/other_shutdown/main.go" />
-      <package value="vteso/test/other_shutdown" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build vteso/test/goroutine" />
+        <item itemvalue="Go Build.go build vteso/test/gormTest" />
+        <item itemvalue="Go Build.go build vteso/test/swagerTest" />
         <item itemvalue="Go Build.go build vteso/test/router_group" />
         <item itemvalue="Go Build.go build vteso/test/middleware_whitelist" />
-        <item itemvalue="Go Build.go build vteso/test/swagerTest" />
-        <item itemvalue="Go Build.go build vteso/test/adocTest" />
-        <item itemvalue="Go Build.go build vteso/test/other_shutdown" />
       </list>
     </recent_temporary>
   </component>
